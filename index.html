@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ONE - Encriptador</title>
+    <link type="image/png" sizes="96x96" rel="icon" href="./assets/img/icons8-cuidado-de-seguridad-96.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main>
+        <article class="box">
+
+            <header class="web_logo">
+                <img src="./assets/img/Logo.png" alt="logotipo del desafio encriptador">
+            </header>
+
+            <section class="input_section">
+                <textarea id="input_text" placeholder="Ingrese el texto aqui"></textarea>
+
+                <footer>
+                    
+                    <div class="buttons-box">
+                        <button id="encrypt_button" class="encrypt_button">Encriptar</button>
+                        <button id="desencrypt_button" class="desencrypt_button">Desencriptar</button>
+                    </div>
+                </footer>
+
+            </section>
+
+            <section class="output_section">
+
+                <div id="output_text_box" class="output_text_box">
+                    <textarea id="output_text" class="output_text" cols="15" rows="5" readonly></textarea>
+                    <button id="clipboard_copy_button">Copiar</button>
+                </div>
+
+                <div id="output_image_box" class="output_image_box">
+                    <img class="image-empty-input" src="./assets/img/Muñeco.svg" alt="imagen de mensaje no encontrado">
+                    <h2>Ningún mensaje fue encontrado</h2>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <footer class="body_footer">
+        <p><strong>Franco Martinez</strong></a>
+            </p>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
